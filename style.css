@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  .left {
+    background-color:#ff0000;
+    padding:20px;
+    float:left;
+    width:20%; 
+  }
+
+  .midLeft {
+    background-color:#eeff00;
+    padding:20px;
+    float:left;
+    width:20%; 
+  }
+  
+  .main {
+    background-color:#2bff00;
+    padding:20px;
+    float:left;
+    width:20%; 
+  }
+
+  .midRight {
+    background-color:#0059ff;
+    padding:20px;
+    float:left;
+    width:20%; 
+  }
+  
+  .right {
+    background-color:#b700ff;
+    padding:20px;
+    float:left;
+    width:20%; 
+  }
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width:800px) {
+    .left, .midLeft, .main, .midRight, .right {
+      width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
